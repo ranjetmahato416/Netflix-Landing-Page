@@ -1,0 +1,37 @@
+.main{
+    display:grid;
+    margin: 100px 300px;
+    grid-template-columns: repeat(2,1fr);
+    height: 400px;
+    padding: 20px;
+    grid-gap:60px
+}
+.main-1{
+    padding: 40px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
+border-radius: 12px;
+}
+.main-2{
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    border-radius: 12px;
+
+
+}
+
+.btn{
+    padding: 5px 10px;
+    outline: 0;
+    color: white;
+    border: none;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-xl {
+    width: 40%;
+    padding: 20px 20px;
+    border-radius: 4px;
+    background: red;
+}
